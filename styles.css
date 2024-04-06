@@ -9,7 +9,8 @@
     align-items: center;
     color: white; 
     font-family: Arial, sans-serif; 
-    text-align: center; 
+    text-align: center;
+    user-select: none; 
 }
 
 .mission-item {
@@ -19,7 +20,8 @@
     padding: 20px;
     border: 1px solid #dee2e6;
     margin-bottom: 20px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+    user-select: none; 
 }
 .heading{
     font-family: cursive;
@@ -28,6 +30,7 @@
     transform: scale(1); 
     cursor: pointer;
     transition: transform 0.3s ease;
+    user-select: none;
 }
 .heading:hover {
     transform: scale(1.05); 
@@ -100,7 +103,8 @@
     padding: 20px;
     border: 1px solid #dee2e6;
     margin-bottom: 20px;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+    user-select: none; 
 }
 
 .principle-item:hover {
@@ -145,16 +149,19 @@
     transform: scale(1); 
     cursor: pointer;
     transition: transform 0.3s ease; 
+    user-select: none;
 }
 
 .main-text:hover {
     transform: scale(1.05); 
+    
 }
 @media only screen and (max-width: 600px) {
 .main-text {
         font-size: 40px;
         transform: scale(1.05);
         cursor: pointer; 
+        user-select: none;
 }}
 
 .paragraph{
@@ -164,4 +171,5 @@
     transform: scale(1); 
     cursor: pointer;
     transition: transform 0.3s ease;
+    user-select: none;
 }
