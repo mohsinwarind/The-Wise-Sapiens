@@ -1,0 +1,167 @@
+/* Written by Mohsin */
+.landing-page {
+    width: 100vw; 
+    height: 100vh; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+}
+
+.mission-item {
+    font-family: 'Times New Roman', Times, serif;
+    color : rgb(241, 236, 236) ;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; 
+}
+.heading{
+    font-family: cursive;
+    color : rgb(245, 233, 233) ;
+    text-align: center;
+    transform: scale(1); 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.heading:hover {
+    transform: scale(1.05); 
+    text-decoration: #333;
+}
+#background-video {
+ 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+  }
+  .transparent-gif {
+    text-align: center;
+    transform: scale(1); 
+    cursor: pointer;
+    transition: transform 0.5s ease; 
+}
+
+.transparent-gif:hover {
+    transform: scale(1.50); 
+}
+
+
+.behind-gif {
+    position: relative;
+    color: white; 
+    z-index: 0; 
+}
+.mission-item:hover {
+    
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.1); 
+    transition: transform 0.5s ease; 
+}
+
+
+/* Pop-up animation for mission details */
+/*.mission-item p {
+    display: none;
+    position: bottom;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+} */
+
+.mission-item:hover p {
+    
+    display: block;
+    opacity: 1;
+}
+
+.principle-item {
+    font-family: 'Times New Roman', Times, serif;
+    color : rgb(241, 236, 236) ;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; 
+}
+
+.principle-item:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+.social-links .btn {
+    background-color: transparent; 
+    color: #fff; 
+    border: 2px solid #fff; 
+    margin: 5px; 
+    transition: background-color 0.9s, color 0.9s; 
+  }
+  
+.social-links .btn:hover {
+    background-color: transparent; 
+    color: #333; 
+  }
+.navbar {
+    
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.navbar-brand {
+    color: white; 
+}
+
+.navbar-nav .nav-link {
+    color: white; 
+}
+
+.navbar-toggler-icon {
+    color: white; 
+}
+.signature-font{
+    font-family: "Sofia", sans-serif;
+}
+.main-text {
+    font-family: "Sofia", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    transform: scale(1); 
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+
+.main-text:hover {
+    transform: scale(1.05); 
+}
+@media only screen and (max-width: 600px) {
+.main-text {
+        font-size: 40px;
+        transform: scale(1.05);
+        cursor: pointer; 
+}}
+
+.paragraph{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color : rgb(245, 233, 233) ;
+    text-align: center;
+    transform: scale(1); 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
